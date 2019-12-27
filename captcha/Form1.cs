@@ -32,7 +32,8 @@ namespace captcha
             s3 = r.Next(0, symbol1.Length);
             s4 = r.Next(0, symbol3.Length);
             s5 = r.Next(0, symbol4.Length);
-
+            
+            this.label1.Visible = true;
             label1.Text = symbol1[s1].ToString() + symbol2[s2].ToString() + symbol1[s3].ToUpper().ToString() + symbol3[s4].ToString() + symbol4[s5].ToString();
 
         }
