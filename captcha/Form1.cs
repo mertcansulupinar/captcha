@@ -43,7 +43,7 @@ namespace captcha
             {
                 Form2 fr = new Form2();
                 fr.Show();
-                //this.Hide();
+                //this.Hide(); // Giriş yapıldıktan sonra arkadaki captcha ekranını gizlemek için kullanılır
             }
             else
             {
